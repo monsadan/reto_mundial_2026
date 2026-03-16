@@ -6,6 +6,12 @@ En este reto queremos identificar cuál será el equipo con mayor probabilidad d
 
 Antes de entrar en proceso se debe correr el arcihvo *playoffs.py* para deteminar los equipos faltantes en los grupos, esto generará un archivo que se usará.
 
+## Etapas de reto
+
+- Determinar los clasificados de los playoffs preclasificados.
+- Identificar posiciones en los grupos.
+- Simular de los clasificados en fases de grupos, la probabilidad de ganar el mundial de los 32 equipos. 
+
 ## Columnas Data Set Base
 Column	Type	Source
 | Column                       | Type         | Source                         |
