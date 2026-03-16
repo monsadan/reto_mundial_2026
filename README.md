@@ -5,7 +5,7 @@ En este reto queremos identificar cuál será el equipo con mayor probabilidad d
 - Tiempo de ejecución de todas las simulaciones.
 - Buenas prácticas.
 
-Antes de entrar en proceso se debe correr el arcihvo *playoffs.py* para deteminar los equipos faltantes en los grupos, esto generará un archivo que se usará.
+Antes de entrar en proceso se debe correr el archivo *playoffs.py* para deteminar los equipos faltantes en los grupos, esto generará un archivo que se usará.
 
 ## Etapas de reto
 
@@ -30,3 +30,11 @@ Column	Type	Source
 | h2h_vs_top10_winrate         | float (0-1)  | Historical estimation          |
 | knockout_stage_reach_rate    | float (0-1)  | Historical WC data             |
 | is_host                      | int (0/1)    | Official — USA, Canada, Mexico |
+
+## A tener en cuenta 
+
+Luego de simular todos los partidos de la fase de grupos se debe tener el cálculo de los puntos y luego usar la función a continuación:
+
+
+
+Con esta función se crearán las llaves de enfriamiento. 
