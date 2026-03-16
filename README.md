@@ -3,6 +3,7 @@
 En este reto queremos identificar cuál será el equipo con mayor probabilidad de ganar el Mundial 2026. Además, puntos extra por:
 - ¿Qué variable es más importante para ganarlo?
 - Tiempo de ejecución de todas las simulaciones.
+- Buenas prácticas.
 
 Antes de entrar en proceso se debe correr el arcihvo *playoffs.py* para deteminar los equipos faltantes en los grupos, esto generará un archivo que se usará.
 
