@@ -17,8 +17,8 @@ Antes de entrar en proceso se debe correr el arcihvo *playoffs.py* para detemina
 Column	Type	Source
 | Column                       | Type         | Source                         |
 |------------------------------|--------------|--------------------------------|
-| fifa_ranking_jan2026         | int          | Official FIFA — Jan 19, 2026   |
-| fifa_points_jan2026          | int          | Official FIFA — Jan 19, 2026   |
+| fifa_ranking        | int          | Official FIFA    |
+| fifa_points          | int          | Official FIFA    |
 | world_cup_titles             | int          | Historical fact                |
 | world_cup_finals             | int          | Historical fact                |
 | world_cup_appearances        | int          | Historical fact                |
