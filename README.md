@@ -62,4 +62,4 @@ def seleccionar_clasificados(df, posc_col, puntos_col, rank_col, grupo_col):
     return clasificados.sort_values(by=[grupo_col, posc_col])
 
 ```
-Con esta función se crearán las llaves de enfrentamientos. 
+Adicionalmente, se incluye el archivo *fn_fases.py* con funciones que permitirán determinar los enfrentamientos en cada fase.
