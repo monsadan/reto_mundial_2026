@@ -4,6 +4,7 @@ En este reto queremos identificar cuál será el equipo con mayor probabilidad d
 - ¿Qué variable es más importante para ganarlo?
 - Tiempo de ejecución de todas las simulaciones.
 - Buenas prácticas.
+- Justificación de decisiones.
 
 Antes de entrar en proceso se debe correr el archivo *playoffs.py* para deteminar los equipos faltantes en los grupos, esto generará un archivo que se usará.
 
