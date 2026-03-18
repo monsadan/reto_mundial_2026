@@ -1,6 +1,7 @@
 # Reto Mundial 2026 - Aplicación DS
 
-En este reto queremos identificar cuál será el equipo con mayor probabilidad de ganar el Mundial 2026. Además, puntos extra por:
+En este reto vamos a jugar el mundial usando datos, queremos identificar qué equipo será el ganador o por lo menos el que mayor probabilidad de ganar el mundial tiene. Se evaluará la completitud del reto, la forma de resolverlo y además, puntos extra por:
+
 - ¿Qué variable es más importante para ganarlo?
 - Tiempo de ejecución de todas las simulaciones.
 - Buenas prácticas.
@@ -63,3 +64,9 @@ def seleccionar_clasificados(df, posc_col, puntos_col, rank_col, grupo_col):
 
 ```
 Adicionalmente, se incluye el archivo *fn_fases.py* con funciones que permitirán determinar los enfrentamientos en cada fase.
+
+## Premios
+
+1. Compartir con el equipo retos que permiten practicar algunas cosas que ya no se hacen tanto.
+2. Ver la forma de abordar problemas de los compañeros.
+3. Elegir entre una **cerveza o un helado**, patrocinado por monsadan.
