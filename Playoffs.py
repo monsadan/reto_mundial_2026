@@ -18,8 +18,8 @@ def simular_clasificacion_2026():
     # 1. PLAYOFFS INTERCONTINENTALES (FIFA)
     # Según sorteo: Ruta 1 va al Grupo K, Ruta 2 va al Grupo I
     fifa_paths = {
-        "FIFA Ruta 1": {"semi": ["Nueva Caledonia", "Jamaica"], "espera": "RD Congo", "grupo": "Grupo K"},
-        "FIFA Ruta 2": {"semi": ["Bolivia", "Surinam"], "espera": "Irak", "grupo": "Grupo I"}
+        "FIFA Ruta 1": {"semi": ["A", "B"], "espera": "C", "grupo": "Grupo K"},
+        "FIFA Ruta 2": {"semi": ["D", "E"], "espera": "F", "grupo": "Grupo I"}
     }
     
     print("\n--- FASE INTERCONTINENTAL ---")
@@ -31,10 +31,10 @@ def simular_clasificacion_2026():
     # 2. PLAYOFFS UEFA
     # Asignaciones oficiales de grupos para ganadores de ruta
     uefa_paths = {
-        "UEFA Ruta A": {"semis": [("Italia", "Irlanda del Norte"), ("Gales", "Bosnia y Herz.")], "grupo": "Grupo B"},
-        "UEFA Ruta B": {"semis": [("Ucrania", "Suecia"), ("Polonia", "Albania")], "grupo": "Grupo F"},
-        "UEFA Ruta C": {"semis": [("Turquía", "Rumanía"), ("Eslovaquia", "Kosovo")], "grupo": "Grupo D"},
-        "UEFA Ruta D": {"semis": [("Dinamarca", "Macedonia del Norte"), ("Chequia", "Rep. de Irlanda")], "grupo": "Grupo A"}
+        "UEFA Ruta A": {"semis": [("G", "H"), ("I", "J")], "grupo": "Grupo B"},
+        "UEFA Ruta B": {"semis": [("K", "L"), ("M", "N")], "grupo": "Grupo F"},
+        "UEFA Ruta C": {"semis": [("O", "P"), ("Q", "R")], "grupo": "Grupo D"},
+        "UEFA Ruta D": {"semis": [("S", "T"), ("V", "W")], "grupo": "Grupo A"}
     }
 
     print("\n--- FASE UEFA (EUROPA) ---")
