@@ -7,19 +7,11 @@ En este reto vamos a jugar el mundial usando datos, queremos identificar qué eq
 - Buenas prácticas.
 - Justificación de decisiones.
 
-Antes de entrar en proceso se debe correr el archivo *playoffs.py* para deteminar los equipos faltantes en los grupos, esto generará un archivo que se usará.
-
 ## Datos disponibles
 
 - Información completa de calificación de equipos.
 - Grupos en los que se encuentra cada equipo.
 - Programación de partidos.
-
-## Etapas de reto
-
-- Determinar los clasificados de los playoffs preclasificados.
-- Identificar posiciones en los grupos.
-- Simular de los clasificados en fases de grupos, la probabilidad de ganar el mundial de los 32 equipos. 
 
 ## Columnas Data Set Base
 Column	Type	Source
@@ -70,3 +62,13 @@ Adicionalmente, se incluye el archivo *fn_fases.py* con funciones que permitirá
 1. Compartir con el equipo retos que permiten practicar algunas cosas que ya no se hacen tanto.
 2. Ver la forma de abordar problemas de los compañeros.
 3. Elegir entre una **cerveza o un helado**, patrocinado por monsadan.
+
+## Criterios de Evaluación y peso
+
+| Criterio                 | Valor |
+|--------------------------|-------|
+| Completitud              | 30%   |
+| Decisión sobre variables | 20%   |
+| Tiempo ejecución         | 15%   |
+| Buenas practicas         | 15%   |
+| Storytelling             | 20%   |
